@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BD Restaurant</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Favicons -->
+        <link href="img/favicon.ico" rel="icon">
+        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Nunito:600,700,800,900" rel="stylesheet"> 
+
+        <!-- Bootstrap CSS File -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Libraries CSS Files -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendor/animate/animate.min.css" rel="stylesheet">
+        <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Main Stylesheet File -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <main id="main">
+
+            <!-- Banner Header Start -->
+            <section class="banner-header">
+                <div class="logo">
+                    <img src="img/logo.png" />
+                </div>
+            </section>
+            <!-- Banner Header End -->
+
+            <!-- Header Start -->
+            <header id="header">
+                <div class="container">
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="menu-active"><a href="menu.html">Menu</a></li>
+                                <ul>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li class="menu-has-children"><a href="#">Drop Down</a>
+                                        <ul>
+                                            <li><a href="#">Drop Down 1</a></li>
+                                            <li><a href="#">Drop Down 2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!-- Header End -->
+
+            <!-- Menu Section Start -->
+            <section id="food-menu">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>Menu makanan</h3>
+                    </header>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/SateAyam.jpeg" alt="Sate Ayam dan Sate Kambing">
+                                <h4>Sate Ayam</h4>
+                                <span>Rp 30.000 / Porsi</span>
+                                <p>Berisi sate ayam dengan bumbu kacang atau bumbu kecap, lengkap dengan lontong atau nasi, acar, dan bawang goreng.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Sate Ayam dan Sate Kambing')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/NasiLiwet.jpeg" alt="Nasi Liwet">
+                                <h4>Nasi Liwet</h4>
+                                <span>Rp 15.000 / Porsi</span>
+                                <p>Nasi gurih yang dimasak dengan santan, disajikan dengan ikan asin, ayam suwir, telur pindang, sambal, dan lalapan.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Nasi Liwet')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/AyamBetutu.jpeg" alt="Ayam Betutu">
+                                <h4>Ayam Betutu</h4>
+                                <span>Rp 50.000 / Porsi</span>
+                                <p>Ayam utuh yang dibumbui dengan rempah khas Bali dan dimasak hingga empuk, dengan nasi, sambal matah, dan urap sayur.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Ayam Betutu')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/NasiTumpeng.jpeg" alt="Nasi Tumpeng">
+                                <h4>Nasi Tumpeng</h4>
+                                <span>Rp 50.000 / Porsi </span>
+                                <p>Nasi kuning yang disajikan dengan berbagai lauk seperti ayam goreng, perkedel, tempe orek, telur balado, dan urap sayur.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Nasi Tumpeng')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/SotoAyam.jpg" alt="Soto Ayam">
+                                <h4>Soto Ayam</h4>
+                                <span>Rp 35.000 / Porsi</span>
+                                <p>Berisi sup kaldu ayam, potongan daging ayam, bihun, telur rebus, daun bawang, seledri, bawang goreng, dan sambal.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Soto Ayam')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/NasiUduk.jpeg" alt="Nasi Uduk Komplit">
+                                <h4>Nasi Uduk Komplit</h4>
+                                <span>Rp 15.000 / Porsi</span>
+                                <p>Berisi nasi uduk yang disajikan dengan lauk-pauk seperti ayam goreng, telur dadar, tempe orek, sambal, dan krupuk.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Nasi Uduk Komplit')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/PepesIkan.jpeg" alt="Pepes Ikan">
+                                <h4>Pepes Ikan</h4>
+                                <span>Rp 25.000 / Porsi</span>
+                                <p>Berisi pepes ikan dengan aroma rempah yang khas dan gurih, disajikan dengan nasi putih atau lalapan segar.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Pepes Ikan')">Order</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="single-menu">
+                                <img class="img-fluid" src="img/GadoGado.jpg" alt="Gado-Gado">
+                                <h4>Gado-Gado</h4>
+                                <span>Rp 22.000 / Porsi</span>
+                                <p>Berisi campuran sayuran segar seperti kubis, kacang panjang, tauge, tahu, dan telur rebus, dilumuri dengan saus kacang.</p>
+                                <a href="#" onclick="orderViaWhatsApp('Gado-Gado')">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <script>
+                function orderViaWhatsApp(menuName) {
+                    var phoneNumber = '+6287737421137'; // Ganti dengan nomor WhatsApp tujuan
+                    var message = encodeURIComponent('Hallo, saya ingin memesan menu ' + menuName);
+                    var url = 'https://wa.me/' + phoneNumber + '?text=' + message;
+                    window.open(url, '_blank');
+                }
+            </script>
+            <script>
+                function orderViaWhatsApp(menuName) {
+                    var phoneNumber = '+6287737421137'; // Ganti dengan nomor WhatsApp tujuan
+                    var message = encodeURIComponent('Hallo, saya ingin memesan menu ' + menuName);
+                    var url = 'https://wa.me/' + phoneNumber + '?text=' + message;
+                    window.open(url, '_blank');
+                }
+            </script>
+            <!-- Support Section end -->
+
+            <!-- Footer Start -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="social-icons">
+                                <h2>Follow kami</h2>
+                                <div class="social-links">
+                                    <a href="#" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-instagram"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="contact-info">
+                                <h3>Kantor Kami</h3>
+                                <p><i class="fa fa-map-marker"></i> GJM5+HR7, Sukamukti, Kec. Pamarican, Kabupaten Ciamis, Jawa Barat 46382</p>
+                                <p><i class="fa fa-phone"></i> <a href="tel:+62227563971">+62 877-3742-1137</a></p>
+                                <p><i class="fa fa-envelope"></i> <a href="mailto:Info@dinastycatering.com">bimapangestunugraha@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        </main>
+
+        <!-- JavaScript Libraries -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/jquery/jquery-migrate.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/easing/easing.min.js"></script>
+        <script src="vendor/stickyjs/sticky.js"></script>
+        <script src="vendor/superfish/hoverIntent.js"></script>
+        <script src="vendor/superfish/superfish.min.js"></script>
+        <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+        <script src="vendor/tempusdominus/js/moment.min.js"></script>
+        <script src="vendor/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Main Javascript File -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
